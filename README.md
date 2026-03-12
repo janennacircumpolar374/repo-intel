@@ -60,9 +60,58 @@ Posts the report as a comment on the triggering pull request.
 ### JSON
 Outputs structured JSON for downstream consumption in your workflow.
 
-## Live Demo
+## See It in Action
 
-See a real report comparing React vs Vue vs Svelte: **[Demo Report](https://github.com/oxnr/repo-intel/issues/1)**
+Check out a **live demo** with real data from facebook/react, vercel/next.js, and sveltejs/svelte:
+
+**[oxnr/repo-intel-demo](https://github.com/oxnr/repo-intel-demo)** — full example report generated from real GitHub data.
+
+## Example Report
+
+Here's what a repo-intel report looks like (real data from 2026-03-12):
+
+```
+## repo-intel Report: vercel/next.js
+Period: 2026-03-05 to 2026-03-12 (7 days)
+
+### Activity Summary
+- 99 commits (↓1% vs prior period)
+- 12 release(s): v16.2.0-canary.81 ... v16.2.0-canary.93
+- 100 total contributors
+- Issues: 10 opened, 18 closed (avg close: 2.8 days)
+- PRs: 100 opened, 25 merged
+- ⭐ 138,308 stars | 🍴 30,621 forks
+
+### Strategic Signals
+🔴 HIGH: 12 releases in period — rapid shipping cadence
+🔴 HIGH: 25 PRs merged — very high development throughput
+🟢 LOW: Issue backlog shrinking — strong bug-fixing focus
+
+### Recommendation
+Action required — Multiple high-priority signals detected for
+vercel/next.js. Investigate specific changes and assess competitive impact.
+```
+
+```
+## repo-intel Report: sveltejs/svelte
+Period: 2026-03-05 to 2026-03-12 (7 days)
+
+### Activity Summary
+- 25 commits (↓19% vs prior period)
+- 4 release(s): svelte@5.53.8, svelte@5.53.9, svelte@5.53.10, svelte@5.53.11
+- 100 total contributors
+- Issues: 16 opened, 15 closed (avg close: 1.9 days)
+- PRs: 32 opened, 25 merged
+- ⭐ 86,101 stars | 🍴 4,801 forks
+
+### Strategic Signals
+🔴 HIGH: 4 releases in period — rapid shipping cadence
+🔴 HIGH: 25 PRs merged — very high development throughput
+
+### Recommendation
+Action required — Multiple high-priority signals detected for
+sveltejs/svelte. Investigate specific changes and assess competitive impact.
+```
 
 ## License
 
