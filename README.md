@@ -60,28 +60,9 @@ Posts the report as a comment on the triggering pull request.
 ### JSON
 Outputs structured JSON for downstream consumption in your workflow.
 
-## Example Report
+## Live Demo
 
-```
-## repo-intel Report: facebook/react
-**Period:** 2026-03-05 to 2026-03-12 (7 days)
-
-### Activity Summary
-- **47** commits (↑23% vs prior period)
-- **2** release(s): v19.1.0, v19.1.1
-- **234** total contributors (3 new)
-- Issues: **12** opened, **8** closed (avg close: 2.3 days)
-- PRs: **15** opened, **11** merged
-- ⭐ **225,000** stars | 🍴 **46,000** forks
-
-### Strategic Signals
-🔴 HIGH: Commit velocity surged 23% — significant acceleration
-🟡 MED: 3 new contributors joined
-🟢 LOW: 2 release(s) shipped in period
-
-### Recommendation
-**Monitor closely** — facebook/react shows notable activity changes.
-```
+See a real report comparing React vs Vue vs Svelte: **[Demo Report](https://github.com/oxnr/repo-intel/issues/1)**
 
 ## License
 
