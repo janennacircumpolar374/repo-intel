@@ -1,0 +1,17 @@
+name: Test repo-intel
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - uses: oxnr/repo-intel@v1
+        with:
+          repos: 'oxnr/repo-intel'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-format: json
+          period-days: '7'
